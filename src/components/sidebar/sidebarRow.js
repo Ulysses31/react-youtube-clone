@@ -14,7 +14,7 @@ export default SidebarRow;
 
 // PropTypes
 SidebarRow.propTypes = {
-  Icon: PropTypes.obj,
+  Icon: PropTypes.any.isRequired,
   title: PropTypes.string.isRequired,
-  selected: PropTypes.bool.isRequired
+  selected: PropTypes.bool
 };
