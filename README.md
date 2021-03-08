@@ -1,4 +1,4 @@
-# React TODO App using Firebase
+# React Youtube clone App using Firebase
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -53,8 +53,6 @@ https://console.firebase.google.com/project/todo-app-rct-7c07e/firestore/data~2F
 
 ## Firebase Link
 
-https://todo-app-rct-7c07e.web.app/
-
 ## GitHub
 
-Github url https://github.com/Ulysses31/react-todo-firebase.git
+Github url https://github.com/Ulysses31/react-youtube-clone.git
