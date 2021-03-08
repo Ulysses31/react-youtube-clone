@@ -37,3 +37,18 @@
   width: 30px !important;
   height: 30px !important;
 }
+
+@media only screen and (max-width: 414px) {
+  /* Styles */
+  .videoCard {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .videoCard__thumbnail {
+    width: 100%;
+    height: 180px;
+  }
+}

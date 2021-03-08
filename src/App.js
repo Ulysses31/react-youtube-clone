@@ -10,9 +10,6 @@ import RecommendedVideo from './components/recommendedVideo/recommendedVideo';
 import SearchPage from './components/searchPage/searchPage';
 import Sidebar from './components/sidebar/sidebar';
 
-// YOUTUBE DATA API KEY
-// AIzaSyAxqf57BTro9h9BIeSBoV3dmGjOkPKSHes
-
 function App() {
   return (
     <div className='App'>
