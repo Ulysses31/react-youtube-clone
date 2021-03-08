@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
+import Header from './components/header/header';
+import RecommendedVideo from './components/recommendedVideo/recommendedVideo';
+import SearchPage from './components/searchPage/searchPage';
+import Sidebar from './components/sidebar/sidebar';
+
+// YOUTUBE DATA API KEY
+// AIzaSyAxqf57BTro9h9BIeSBoV3dmGjOkPKSHes
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Router>
+        <Header />
+        <Switch>
+          <Route path='/search/:searchTerm'>
+            <div className='app_page'>
+              <Sidebar />
+              <SearchPage />
+            </div>
+          </Route>
+          <Route path='/'>
+            <div className='app_page'>
+              <Sidebar />
+              <RecommendedVideo />
+            </div>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
