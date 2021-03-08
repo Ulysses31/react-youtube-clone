@@ -15,10 +15,22 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 414px) {
-  /* Styles */
+/* portrait */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .recommendedVideos__videos {
+    display: flex;
+    flex-direction: column;
+  }
+
   .recommendedVideos > h2 {
-    margin: 20px 5px;
     text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* landscape */
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+  .recommendedVideos {
+    flex: 1;
   }
 }

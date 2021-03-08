@@ -5,6 +5,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
+import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import RecommendedVideo from './components/recommendedVideo/recommendedVideo';
 import SearchPage from './components/searchPage/searchPage';
@@ -29,6 +30,7 @@ function App() {
             </div>
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: #606060;
+}
+
+.footer__intro {
+  display: flex;
+  color: #606060;
+  font-size: large;
+}
+
+.footer > p {
+  color: #606060;
+  font-size: xx-small;
+  margin: 5px 0;
+}

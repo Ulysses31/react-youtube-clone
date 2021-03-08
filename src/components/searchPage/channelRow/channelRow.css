@@ -25,3 +25,45 @@
   font-size: small;
   margin: 2px 0;
 }
+
+/* portrait */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .channelRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .channelRow__logo {
+    width: 100px !important;
+    height: 100px !important;
+    margin: 10px 60px;
+  }
+
+  .channelRow__text {
+    align-items: center;
+  }
+}
+
+/* landscape */
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+  .channelRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .channelRow__logo {
+    width: 100px !important;
+    height: 100px !important;
+    margin: 10px 60px;
+  }
+
+  .channelRow__text {
+    align-items: center;
+  }
+}

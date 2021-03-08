@@ -22,3 +22,17 @@
 .searchPage__filter > h2 {
   margin-left: 10px;
 }
+
+/* portrait */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .searchPage {
+    flex: 1;
+  }
+}
+
+/* landscape */
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+  .searchPage {
+    border: 1px dotted #000;
+  }
+}

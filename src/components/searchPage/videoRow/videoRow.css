@@ -25,3 +25,47 @@
   margin-top: 10px;
   font-size: 12px;
 }
+
+/* portrait */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .videoRow {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .videoRow > img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
+
+  .videoRow__text {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* landscape */
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+  .videoRow {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .videoRow > img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
+
+  .videoRow__text {
+    margin-left: 0;
+    text-align: center;
+  }
+}
