@@ -47,12 +47,6 @@ To **deploy** the application
 
 # Firebase Live Links
 
-## Firebase Firestore
-
-https://console.firebase.google.com/project/todo-app-rct-7c07e/firestore/data~2Ftodo~2FQc9T7GeydhArJ7UPL8we
-
-## Firebase Link
-
 ## GitHub
 
 Github url https://github.com/Ulysses31/react-youtube-clone.git

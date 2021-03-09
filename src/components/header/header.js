@@ -30,6 +30,7 @@ function Header() {
           type='text'
           value={inputSearch}
           onChange={(e) => setInputSearch(e.target.value)}
+          title='Press the search button to navigate to search page.'
         />
         <Link
           to={`/search/${inputSearch}`}
