@@ -45,7 +45,9 @@ To **deploy** the application
 <li><b>firebase deploy</b></li>
 </ol>
 
-# Firebase Live Links
+# Firebase Link
+
+https://clone-app-83dc1.web.app/
 
 ## GitHub
 
